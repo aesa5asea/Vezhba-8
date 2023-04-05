@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <center>
+      <h3>Register for our new website!</h3>
+      <form method get="" action="">
+        <label for="name">Name: </label>
+        <input
+          type="text"
+          name="firstname"
+          id="name"
+          required
+          placeholder="Name"
+        />
+        <input
+          type="text"
+          name="lastname"
+          id="name"
+          required
+          placeholder="Lastname"
+        />
+        <br /><br />
+        <label for="companyName">Company: </label>
+        <input
+          type="text"
+          name="companyName"
+          id="companyName"
+          placeholder="Company Name"
+        />
+        <br /><br />
+        <label for="phoneNumber">Phone number: </label>
+        <input
+          type="number"
+          name="areaNumber"
+          id="phoneNumber"
+          placeholder="Area Number"
+          min="0"
+          max="999"
+          size="12"
+          required
+        />
+        <input
+          type="number"
+          name="phoneNumber"
+          id="phoneNumber"
+          placeholder="Phone Number"
+          min="0"
+          max="999999999999999"
+          required
+        />
+        <br /><br />
+        <label for="email">Email: </label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="youremail@hello.com"
+          required
+        />
+        <br /><br />
+        <label for="subject">Position: </label>
+        <select name="subject" id="subject">
+          <option disabled selected>Please select one position</option>
+          <option value="Skopje">Intern</option>
+          <option value="Skopje">Junior</option>
+          <option value="Kochani">Senior</option>
+          <option value="Prilep">Manager</option>
+          <option value="Resen">CEO</option>
+        </select>
+        <br />
+        <p>Are you a customer?</p>
+        <input type="radio" name="customer" id="yes" value="yes" />
+        <label for="yes">Yes</label>
+
+        <input type="radio" name="customer" id="no" value="no" />
+        <label for="no">No</label>
+        <br /><br />
+        <input type="submit" value="Register" />
+      </form>
+    </center>
+  </body>
+</html>
